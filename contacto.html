@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #d31919;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #e41212;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="index.html">INDEX</a></li>
+  <li><a href="bio.html">BIO</a></li>
+  <li><a href="fotos.html">FOTOS</a></li>
+  <li><a href="music.html">MUSICA</a></li>
+  <li><a href="div.html">PARIENTES</a></li>
+</ul>
+
+
+<br>
+<h2>DESEAS MAS INFORMACION </h2>
+<p>llena el formulario para ayudarte mejor </p>
+<br>
+<form>
+    
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="pwd">Password:</label><br>
+    <input type="password" id="pwd" name="pwd"><br>
+    <label for="fcorreo">correo:</label><br>
+    <input type="email" id="fcorreo" name="fcorreo">
+    <br>
+    <br>
+    <label for="fgenero">Genero:</label><br>
+    <br>
+    <label for="fgenero">Masculino:</label><br>
+    <input type="Radio" id="Masculino" name="genero" value="Masculino"><br>
+    <label for="fgenero">Femenino:</label><br>
+    <input type="Radio" id="Femenino" name="genero" value="Femenino"><br>
+   <br>
+
+   <label for="fgenero">¿Cual es tu comida favorita?:</label><br>
+   <input type="checkbox"id="Preferecia1"name="Preferenia1"value="Sushi">
+   <label for="Preferencia1">Me gusta el sushi</label><br>
+
+   <input type="checkbox"id="Preferecia2"name="Preferenia2"value="Tacos">
+   <label for="Preferencia2">Me gustan los tacos</label><br>
+   
+   <input type="checkbox"id="Preferecia3"name="Preferenia3"value="Pizza">
+   <label for="Preferencia2">Me gusta la pizza</label><br>
+
+    <br>
+    <label for="fnacimiento">Fecha de nacimiento: </label>
+                <input type="datetime-local" id="fnacimiento" name="fnacimiento" min="1900-01-01"><br><br>
+
+    <label for="fcabello">Color de cabello: </label>
+                <input type="color" id="fcabello" name="fcabello" value="#000000">
+                <br>
+                <br>
+                <label for="ffoto">Elige una foto para tu perfil </label>
+                <br>
+                <input type="file"id="ffoto"name="ffoto">
+                <br>
+                <br>
+   comentarios <br>
+
+   <textarea name="Comentarios"  cols="40" rows="5"></textarea>
+   <br>
+   <input type="submit"value="ENVIAR">
+   <input type="reset"value="RESET">
+   <br>
+   <input type="image" src="enviar.jpg" alt="Submit" width="100" height="100">
+
+  </form>
+
+
+</body>
+</html>
